@@ -1,0 +1,125 @@
+.header 
+{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.header li
+{
+    display: inline;
+    padding: 10px;
+}
+
+.header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.header2 
+{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.header2 li
+{
+    display: inline;
+    padding: 10px;
+}
+
+.header2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card 
+{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer 
+{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: center;
+}
+
+.footer ul 
+{
+    list-style: none;
+    text-align: center;
+}
+
+.footer li
+{
+    padding: 10px;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer img
+{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.footer2 
+{
+    background-color: #f1f1f1;
+    text-align: center;
+    display: flex;
+}
+
+.footer2 ul 
+{
+    padding-left: 35%;
+}
+
+.footer2 li
+{
+    padding: 10px;
+    display: inline;
+}
+
+.footer2 a
+{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.cardGird {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minmax values as needed */
+    gap: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+

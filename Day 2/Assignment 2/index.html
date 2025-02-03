@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form action="" method="get">
+        <div class="form-new-here">
+
+            <h2>Hi, Welcome to Luxira!</h2>
+            <p>New here? <a href="#"> Create an account.</a> </p>
+        </div>
+        <div class="form-input">
+
+            <label for="email">Emil address</label>
+            <br>
+            <input type="email" placeholder="3lawy@g.com" id="email">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password">
+        </div>
+        <div class="form-remember">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember this device</label>
+            <a href="#"> Forget this password?.</a>
+        </div>
+        <br>
+        <Button class="login">Logn In</Button>
+        <br>
+        <hr>
+        <br>
+        <Button class="Sign">Sign up with Google</Button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <form class="form2" action="" method="get">
+
+        <div class="form-new-here">
+
+            <h2>Hi, Welcome to Luxira!</h2>
+            <p>Register Your account</p>
+
+        <!-- First row (First Name, Surname) -->
+        <div class="row">
+            <div class="input-group">
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="3lawy" />
+            </div>
+            <div class="input-group">
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname" placeholder="Al-husSEiny" />
+            </div>
+        </div>
+
+        <!-- Second row (Mobile/Email, Gender) -->
+        <div class="row">
+            <div class="input-group">
+                <label for="mobileEmail">Mobile number or email address</label>
+                <input type="text" id="mobileEmail" name="mobileEmail" placeholder="ali@g.com" />
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Third row (Password, Confirm Password) -->
+        <div class="row">
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" />
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword"
+                    placeholder="Confirm your password" />
+            </div>
+        </div>
+
+        <!-- Register Button -->
+        <button type="submit" class="btn">Register</button>
+        <div class="or-login">
+            <p>Or Login With</p>
+        </div>
+         <!-- Social Login (Google) -->
+    <div class="social-login">
+        <button class="google-btn">Sign up with Google</button>
+    </div>
+    </div>
+    </form>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div class="card">
+
+        <img src="Jecket.jpg" alt="jacket" width="200px">
+        <p>Curology Product Set</p>
+        <div class="card-price">
+            <p><del>$500</del> <ins>$300</ins></p>
+            <img src="stars.webp" alt="stars" width="70px">
+        </div>
+        <button>Add To Cart</button>
+    </div>
+</body>
+
+</html>
